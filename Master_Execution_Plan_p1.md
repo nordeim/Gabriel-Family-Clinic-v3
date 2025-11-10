@@ -1782,7 +1782,3 @@ Implement real-time queue tracking and management.
     });
   }
   ```
-
-- [ ] Create src/pages/api/queue/next.ts
-  ```typescript
-  export default async
