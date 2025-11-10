@@ -1,0 +1,87 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+.nyc_output
+playwright-report
+test-results
+
+# Next.js
+.next
+out
+build
+dist
+
+# Production
+build
+dist
+
+# Misc
+.DS_Store
+*.pem
+.vscode
+.idea
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+!.env.example
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA
+public/sw.js
+public/workbox-*.js
+
+# Sentry
+.sentryclirc
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
+*.log
+
+# OS files
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+.fleet
+
+# Testing
+cypress/videos
+cypress/screenshots
+cypress/downloads
+
+# Bundle analyzer
+analyze
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary files
+tmp
+temp
+.tmp
