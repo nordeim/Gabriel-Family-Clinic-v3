@@ -1711,7 +1711,6 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-```python
 logger = logging.getLogger(__name__)
 
 # ============================================================================
