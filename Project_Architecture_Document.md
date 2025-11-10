@@ -42,7 +42,7 @@ const ARCHITECTURE_PRINCIPLES = {
 
 | Layer | Technology | Files | Purpose |
 |-------|------------|-------|---------|
-| **Frontend** | Next.js 13 + React 18 | ~25 files | Patient & doctor portals |
+| **Frontend** | Next.js 14 + React 18 | ~25 files | Patient & doctor portals |
 | **API** | Next.js API Routes | ~10 files | REST endpoints |
 | **Database** | Supabase PostgreSQL | 7 tables | Data persistence |
 | **Auth** | Supabase Auth | 2 hooks | Phone OTP authentication |
