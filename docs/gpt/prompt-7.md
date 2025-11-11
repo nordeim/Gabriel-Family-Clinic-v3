@@ -1,1 +1,3 @@
 You have done yet again another amazing job with your meticulous planning and execution! Please keep up the good work! Please use the same rigorous and meticulous approach to plan and then create "2. Jest and Playwright configs and minimal tests aligned with these handlers."
+
+You have done yet again another amazing job with your meticulous planning and execution! Please keep up the good work! Please use the same rigorous and meticulous approach to plan and then create "3. complete set of database migrations and seed (code) files. As well as the `scripts/seed.ts`"
