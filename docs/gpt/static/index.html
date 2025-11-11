@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gabriel Family Clinic – Simple, Neighborly Care</title>
+    <meta
+      name="description"
+      content="Gabriel Family Clinic – A neighborhood-first clinic with simple online booking, real-time queue updates, and a senior-friendly experience."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/globals.css" />
+
+    <!-- Minimal favicons (placeholder) -->
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="nav-left">
+          <div class="brand-mark">G</div>
+          <div class="brand">
+            <div class="brand-title">Gabriel Family Clinic</div>
+            <div class="brand-subtitle">Neighborhood-first care</div>
+          </div>
+        </div>
+        <nav class="nav-links" data-nav-menu>
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#why" class="nav-link">Why Us</a>
+          <a href="#how" class="nav-link">How It Works</a>
+          <a href="#seniors" class="nav-link">For Seniors</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#book" class="btn btn-primary btn-small nav-cta">
+            Book Now
+          </a>
+        </nav>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="eyebrow">One clinic. One simple system.</div>
+            <h1>
+              Clinic care, made simple
+              <span class="text-highlight">for everyone.</span>
+            </h1>
+            <p class="hero-subtitle">
+              From grandma’s check-up to your busy workday flu visit,
+              Gabriel Family Clinic keeps booking and waiting simple, clear,
+              and friendly for our neighborhood.
+            </p>
+            <div class="hero-actions">
+              <button
+                class="btn btn-primary btn-large"
+                data-scroll-to="#book"
+              >
+                Book an Appointment
+              </button>
+              <button
+                class="btn btn-outline btn-large"
+                data-scroll-to="#seniors"
+              >
+                View Queue & Patient Guide
+              </button>
+            </div>
+            <div class="hero-trust">
+              <div class="badge-soft">Designed for seniors & caregivers</div>
+              <div class="hero-note">
+                Simple screens, big text, no apps to install.
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="card card-elevated hero-card">
+              <div class="hero-card-header">
+                <div>
+                  <div class="hero-card-title">Quick Booking Preview</div>
+                  <div class="hero-card-subtitle">
+                    See how easy it feels in our real app.
+                  </div>
+                </div>
+                <span class="hero-card-pill">2 min</span>
+              </div>
+
+              <div class="hero-card-body">
+                <label class="field-label">Select Doctor</label>
+                <div class="field-select">
+                  <span>Dr Tan (Family Physician)</span>
+                  <span class="chevron">⌄</span>
+                </div>
+
+                <label class="field-label">Choose Date</label>
+                <div class="field-select">
+                  <span>Today, 3:15 PM</span>
+                  <span class="chevron">📅</span>
+                </div>
+
+                <label class="field-label">Your Name</label>
+                <input
+                  class="field-input"
+                  type="text"
+                  placeholder="E.g. Mdm Tan Ah Lian"
+                />
+
+                <button class="btn btn-primary btn-full mt-2">
+                  Confirm Booking
+                </button>
+
+                <div class="hero-card-footnote">
+                  You&apos;ll receive a confirmation and gentle reminders.
+                  No password, no clutter.
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-mini-card card">
+              <div class="hero-mini-label">Live Queue Snapshot</div>
+              <div class="hero-mini-items">
+                <div class="hero-mini-item">
+                  <div class="mini-label">Now Seeing</div>
+                  <div class="mini-value">A012</div>
+                </div>
+                <div class="hero-mini-item">
+                  <div class="mini-label">You&apos;re Next</div>
+                  <div class="mini-value text-positive">A013</div>
+                </div>
+                <div class="hero-mini-item">
+                  <div class="mini-label">Est. Wait</div>
+                  <div class="mini-value">8 mins</div>
+                </div>
+              </div>
+              <div class="hero-mini-note">
+                In the real system, this updates live for patients and staff.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Us -->
+      <section id="why" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Why Gabriel Family Clinic</h2>
+            <p>
+              Built with our neighbors in mind: clear, calm, and respectful of your time.
+            </p>
+          </div>
+          <div class="grid-three">
+            <div class="card card-elevated feature-card">
+              <div class="feature-icon">🧓</div>
+              <h3>Senior-friendly by design</h3>
+              <p>
+                Large text, high contrast, simple steps. No app downloads,
+                no confusing menus – just a clear way to see your turn.
+              </p>
+            </div>
+            <div class="card card-elevated feature-card">
+              <div class="feature-icon">⏱️</div>
+              <h3>Shorter, calmer waits</h3>
+              <p>
+                Book ahead or walk in – see your queue number, estimated wait,
+                and get gentle updates so you can rest instead of crowding.
+              </p>
+            </div>
+            <div class="card card-elevated feature-card">
+              <div class="feature-icon">🔒</div>
+              <h3>Privacy built in</h3>
+              <p>
+                We protect your information and only show what is needed.
+                IDs are masked and systems follow healthcare best practices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section id="how" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>How it works – in three simple steps</h2>
+            <p>
+              Designed so that anyone in the family can help, and seniors can follow easily.
+            </p>
+          </div>
+          <div class="steps-grid">
+            <div class="step">
+              <div class="step-number">1</div>
+              <h3>Book from home or at the clinic</h3>
+              <p>
+                Choose your preferred doctor and time slot from your phone,
+                or let our front-desk team help you on the same system.
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <h3>Get your queue number & updates</h3>
+              <p>
+                Receive a clear queue number and see your place in line.
+                Gentle SMS reminders keep things on track.
+              </p>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <h3>See the doctor with confidence</h3>
+              <p>
+                When it&apos;s almost your turn, you&apos;ll know. Less uncertainty,
+                less crowding, more comfort for everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For Seniors & Families -->
+      <section id="seniors" class="section section-alt">
+        <div class="container seniors-grid">
+          <div>
+            <h2>Made for seniors and families</h2>
+            <p class="lead">
+              Your parents and grandparents deserve calm, not chaos.
+            </p>
+            <ul class="list-check">
+              <li>Simple screens you can read at a glance.</li>
+              <li>No need to remember passwords – secure links instead.</li>
+              <li>Caregivers can help manage appointments easily.</li>
+              <li>Clear queue info so no one has to stand and wait.</li>
+            </ul>
+          </div>
+          <div class="card card-elevated seniors-card">
+            <h3 class="seniors-card-title">“Ah Ma can see her queue number!”</h3>
+            <p class="seniors-card-quote">
+              “The staff just showed us this screen. Now my mum can sit and rest
+              while I check her turn on my phone. Very thoughtful.”
+            </p>
+            <div class="seniors-card-meta">
+              – A daughter of a regular patient
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For Staff -->
+      <section class="section">
+        <div class="container staff-grid">
+          <div>
+            <h2>Built to make clinic teams happier too</h2>
+            <p class="lead">
+              One clean dashboard for front-desk and doctors.
+            </p>
+            <ul class="list-check">
+              <li>See today&apos;s appointments and walk-ins at a glance.</li>
+              <li>Assign queue numbers with one tap.</li>
+              <li>Reduce repeated questions at the counter.</li>
+              <li>Keep patients informed without extra calls.</li>
+            </ul>
+          </div>
+          <div class="card card-elevated staff-card">
+            <div class="staff-label">Staff Portal Preview</div>
+            <div class="staff-row">
+              <span>10:00 AM – Mdm Tan Ah Lian</span>
+              <span class="badge-soft">Arrived · A013</span>
+            </div>
+            <div class="staff-row">
+              <span>10:15 AM – Mr Lee Wei Jian</span>
+              <span class="badge-soft">Booked</span>
+            </div>
+            <div class="staff-row">
+              <span>10:30 AM – Walk-in</span>
+              <span class="badge-soft">In Queue</span>
+            </div>
+            <div class="staff-note">
+              The real system uses secure staff login with live data.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action / Book -->
+      <section id="book" class="section cta-section">
+        <div class="container cta-container">
+          <div>
+            <h2>Ready to make visits calmer for everyone?</h2>
+            <p>
+              Start with simple online booking and a clear queue. We&apos;ll handle
+              the details so you can focus on care.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="#hero" class="btn btn-primary btn-large">
+              Try the booking experience
+            </a>
+            <a href="#contact" class="btn btn-outline btn-large">
+              Talk to our clinic team
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / Footer -->
+      <section id="contact" class="section section-alt">
+        <div class="container contact-grid">
+          <div>
+            <h3>Gabriel Family Clinic</h3>
+            <p>
+              123 Sample Street, #01-234<br />
+              Singapore 123456
+            </p>
+            <p>Tel: +65 6000 0000</p>
+          </div>
+          <div>
+            <h4>Hours</h4>
+            <p>
+              Mon–Fri: 8:30 AM – 1:00 PM, 2:00 PM – 5:30 PM<br />
+              Sat: 8:30 AM – 1:00 PM<br />
+              Sun & PH: Closed
+            </p>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#why">Why Us</a></li>
+              <li><a href="#how">How It Works</a></li>
+              <li><a href="#seniors">For Seniors</a></li>
+              <li><a href="#book">Book</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div>© Gabriel Family Clinic. All rights reserved.</div>
+          <div class="footer-sub">
+            This is a design mockup of the digital companion experience.
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./js/landing.js" defer></script>
+  </body>
+</html>
